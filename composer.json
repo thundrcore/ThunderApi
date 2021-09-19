@@ -1,0 +1,38 @@
+{
+  "name": "thundrcore/ThunderApi",
+  "license": "proprietary",
+  "description": "Core API library for all project",
+  "autoload": {
+    "psr-4": {
+      "ThunderCore\\":"src/ThunderCore/"
+    },
+	"files": 
+      "src/ThunderCore/Form/functions_include.php"
+    ]
+  },
+  "require":{
+    "ext-curl": "*",
+    "ext-date": "*",
+    "ext-dom": "*",
+    "ext-hash": "*",
+    "ext-iconv": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-pdo": "*",
+    "ext-reflection": "*",
+    "ext-simplexml": "*",
+    "ext-soap": "*",
+    "doctrine/doctrine-module": "^2.1",
+    "league/container": "^2.4",
+    "monolog/monolog": "^1.24",
+    "guzzlehttp/psr7": "^1.5",
+    "league/route": "^3.1",
+    "twig/twig": "^2.0",
+    "doctrine/orm": "^2.5",
+    "beberlei/doctrineextensions": "1.1",
+    "firebase/php-jwt": "^5.0"
+  },
+  "archive": {
+    "exclude": ["/.git", "/tests", ".gitattributes", ".gitignore", "composer.lock"]
+  }
+}
